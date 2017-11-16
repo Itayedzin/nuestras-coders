@@ -1,0 +1,54 @@
+body{
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.rectangle{
+  background-color: #726e68;
+  height: 6px;
+  width: 120px;
+  margin-left: 0px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.title{
+  font-family: monospace;
+  font-size: 20px;
+  color: #726e68;
+}
+
+.fila {
+  display: inline-block;
+  width: 800px;
+  top: 10px;
+  padding: 0px;
+}
+
+.unit {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  padding: 0px;
+  position: relative;
+}
+
+div > img {
+  /*display: block;
+  margin: 10px;
+  position: relative;
+  width: 220px; */
+  height:220px;
+}
+
+.names{
+  width:210px;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 0px;
+  position: relative;
+  bottom: 25px;
+  text-align: right;
+}
